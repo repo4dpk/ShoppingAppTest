@@ -3,9 +3,9 @@
 <suite name="Shooping test Suite">
 	<test name="Shopping Online">
 		<classes>
-			<class name="com.qa.TestCases.HomePageTest"></class>
-			<class name="com.qa.TestCases.LoginPageTest"></class>
-			<class name="com.qa.TestCases.ShoppingPageTest"></class>
+			<class name="com.qa.TestCases.HomePageTest"/>
+			<class name="com.qa.TestCases.LoginPageTest"/>
+			<class name="com.qa.TestCases.ShoppingPageTest"/>
 		</classes>
 	</test>
 </suite>
