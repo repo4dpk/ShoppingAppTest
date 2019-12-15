@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62008" started-at="2019-12-15T08:26:30Z" finished-at="2019-12-15T08:27:32Z">
+  <suite name="Onlline Shopping Test Automation" duration-ms="113819" started-at="2019-12-15T11:32:38Z" finished-at="2019-12-15T11:34:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62008" started-at="2019-12-15T08:26:30Z" finished-at="2019-12-15T08:27:32Z">
+    <test name="TestCases" duration-ms="113819" started-at="2019-12-15T11:32:38Z" finished-at="2019-12-15T11:34:31Z">
+      <class name="com.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.TestCases.HomePageTest@224edc67]" name="launchBrowser" is-config="true" duration-ms="22562" started-at="2019-12-15T11:33:54Z" finished-at="2019-12-15T11:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="signInTest()[pri:3, instance:com.qa.TestCases.HomePageTest@224edc67]" name="signInTest" duration-ms="13709" started-at="2019-12-15T11:34:17Z" finished-at="2019-12-15T11:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestCases.HomePageTest@224edc67]" name="tearDown" is-config="true" duration-ms="1118" started-at="2019-12-15T11:34:30Z" finished-at="2019-12-15T11:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.TestCases.HomePageTest -->
       <class name="com.qa.TestCases.ShoppingPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@26be92ad]" name="setup" is-config="true" duration-ms="34483" started-at="2019-12-15T08:26:30Z" finished-at="2019-12-15T08:27:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@46d56d67]" name="setup" is-config="true" duration-ms="23637" started-at="2019-12-15T11:33:06Z" finished-at="2019-12-15T11:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="naviTshirtTest()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@26be92ad]" name="naviTshirtTest" duration-ms="26599" started-at="2019-12-15T08:27:04Z" finished-at="2019-12-15T08:27:31Z">
+        <test-method status="PASS" signature="naviTshirtTest()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@46d56d67]" name="naviTshirtTest" duration-ms="23321" started-at="2019-12-15T11:33:30Z" finished-at="2019-12-15T11:33:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- naviTshirtTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="885" started-at="2019-12-15T08:27:31Z" finished-at="2019-12-15T08:27:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestCases.ShoppingPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="1107" started-at="2019-12-15T11:33:53Z" finished-at="2019-12-15T11:33:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.TestCases.ShoppingPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCases.LoginPageTest@14acaea5]" name="setup" is-config="true" duration-ms="20887" started-at="2019-12-15T11:32:38Z" finished-at="2019-12-15T11:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.TestCases.LoginPageTest@14acaea5]" name="loginTest" duration-ms="6357" started-at="2019-12-15T11:32:58Z" finished-at="2019-12-15T11:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestCases.LoginPageTest@14acaea5]" name="tearDown" is-config="true" duration-ms="1080" started-at="2019-12-15T11:33:05Z" finished-at="2019-12-15T11:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.TestCases.LoginPageTest -->
+    </test> <!-- TestCases -->
+  </suite> <!-- Onlline Shopping Test Automation -->
 </testng-results>
